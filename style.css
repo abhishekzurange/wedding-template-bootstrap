@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.bg-1{
+    background-image: url(images/background/slide-image-1920-c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.bg-2{
+    background-image: url(images/background/slide-image-1920-d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.bg-3{
+    background-image: url(images/background/slide-image-1920-f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.nav{
+    height: 80px;
+    position: relative;
+    z-index: 9;
+}
+.nav-1{
+    width: 100%;
+}
+.li-1 :hover{
+    color: red;
+}
+.head{
+    position: absolute;
+    top: 0%;
+}
+.date-1{
+    height: 700px;
+}
+.date{
+    font-family: 'Pacifico', cursive;
+    transform: rotatez(-18deg);
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.date-2{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    border-top: medium double #fff;
+    border-bottom: medium double #fff;
+}
+.abc{
+    margin-top: 700px;
+}
+.date-2 p{
+    margin-left: 20px;
+}
+.date-3{
+    width: 22%;
+    margin: 0 auto;
+}
+hr{
+    width: 40%;
+    margin: 0 auto;
+}
+.couple{
+    height: 300px;
+    margin-top: 20px;
+}
+.groom{
+    height: 650px;
+}
+.groom p{
+    margin-top: 30px;
+    width: 100%;
+}
+.groom-4{
+    width: 60%;
+    margin: 0 auto;
+    border-top: medium double #fff;
+    border-bottom: medium double #fff;
+}
+.groom-4 p{
+   
+    margin-left: 10px;
+}
+.groom-5{
+    margin: 20px 0px 0px 20px;
+    width: 90%;
+    height: 90%;
+    border: 1px solid white;
+}
+.bg-img{
+    width: 100%;
+    background-image: url(images/background/her2.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+      background-position: center;
+       height: 400px;
+}
+.bg-img-1{
+    width: 100%;
+    background-image: url(images/background/him2.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+      background-position: center;
+       height: 400px;
+}
+.back-2{
+    background-image: url(images/background/parallax-image-1a.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+     background-size: cover;
+      background-position: center;
+       height: 600px;
+       background-attachment: fixed;
+}
+.down{
+    height: 600px;
+    z-index: 1;
+}
+.down-1{
+    height: 120px;
+    font-size: 40px;
+    transform: rotatez(-12deg);
+    width: 80%;
+    line-height: 1;
+    margin: 20px 0px 0px 20px;
+}
+.down-1 p{
+    height: 100px;
+}
+.date-2-1{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-top: medium double #fff;
+    border-bottom: medium double #fff;
+}
+.rsvp{
+    height: 300px;
+}
+.rsvp-1{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.rsvp-1:hover{
+    background-color:rgba(255, 0, 0, 0.671);
+}
+.couple-1{
+    height: 250px;
+}
+.footer-1{
+    background-image: url(images/background/slide-image-1920-h.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+     background-size: cover;
+      background-position: center;
+       height: 500px;
+       background-attachment: fixed;
+}
+.footer{
+  height: 400px;
+}
+.footer-3{
+    transform: rotateZ(-8deg);
+    height: 100px;
+    margin-left: 60px;
+    font-size: 40px;
+    width: 60%;
+    line-height: 1;
+}
+.ft-1{
+    background-color: rgba(0, 0, 0, 0.233);
+    height: 500px;
+}
+
+.ft-2{
+    background-color: rgba(0, 0, 0, 0.233);
+    height: 600px;
+}
+.hero{
+    height: 1500px;
+}
+.hero-1{
+    height: 1450px;
+}
+.hero-3{
+    width: 90%;
+    margin-left: 15px;
+    height: 260px;
+    border: 2px solid white;
+    margin-top: -280px;
+    z-index: 3;
+}
+@media(min-width:768px){
+    .date{
+        font-family: 'Pacifico', cursive;
+        transform: rotatez(-15deg);
+        width: 30%;
+        margin: 0 auto;
+    }
+    .date-2 p{
+        margin-left: 50px;
+    }
+    .couple{
+        height: 200px;
+        margin-top: 20px;
+    }
+    .groom{
+        height: 560px;
+    }
+    .groom-4{
+        width: 40%;
+        margin: 0 auto;
+        border-top: medium double #fff;
+        border-bottom: medium double #fff;
+    }
+    .groom-4 p{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    
+    .down-1{
+        height: 150px;
+        font-size: 60px;
+        transform: rotatez(-12deg);
+        width: 50%;
+       margin-left: 200px;
+       line-height: 1;
+    }
+    .down-1 p{
+        height: 130px;
+    }
+    .date-2-1{
+        width: 100%;
+    }
+    .date-2-1 p{
+        font-size: x-large;
+    }
+    .footer-1{
+        background-image: url(images/background/slide-image-1920-h.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+         background-size: cover;
+          background-position: center;
+           height: 600px;
+           background-attachment: fixed;
+    }
+    .footer-3{
+        transform: rotateZ(-8deg);
+        height: 100px;
+        margin-left: 250px;
+        font-size: 40px;
+        width: 30%;
+        line-height: 1;
+    }
+    .ft-1{
+        background-color: rgba(0, 0, 0, 0.233);
+        height: 600px;
+    }
+    
+    .ft-2{
+        background-color: rgba(0, 0, 0, 0.233);
+        height: 600px;
+    }
+    .hero{
+        height: 2600px;
+    }
+    .hero-1{
+        height: 2500px;
+    }
+    .hero-3{
+        width: 90%;
+        margin-left: 35px;
+        height: 600px;
+        margin-top: -650px;
+        z-index: 3;
+    }
+    }
+
+@media(min-width:1199px){
+    .nav{
+        height: 100px;
+        position: relative;
+        z-index: 9;
+        /* top: 20px; */
+    }
+    .date-1{
+        height: 700px;
+    }
+    .date{
+        font-family: 'Pacifico', cursive;
+        transform: rotatez(-18deg);
+        width: 22%;
+        margin: 0 auto;
+    }
+    .date-2{
+        width: 30%;
+        margin: 0 auto;
+        border-top: medium double #fff;
+        border-bottom: medium double #fff;
+    }
+    .date-2 p{
+        margin-left: 80px;
+    }
+    .date-3{
+        width: 22%;
+        margin: 0 auto;
+    }
+    hr{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .bg-img{
+        width: 70%;
+        background-image: url(images/background/her2.jpg);
+        background-repeat: no-repeat;
+         background-size: cover;
+          background-position: center;
+           height: 300px;
+           margin-right: 50px;
+    }
+    .bg-img-1{
+        width: 70%;
+        background-image: url(images/background/him2.jpg);
+        background-repeat: no-repeat;
+         background-size: cover;
+          background-position: center;
+           height: 300px;
+           margin-left: 160px;
+    }
+    .groom{
+        height: 550px;
+    }
+    
+    .para-1{
+        margin-left: 155px;
+    }
+    .groom p{
+        width: 70%;
+    }
+    .groom-4{
+        width: 70%;
+    }
+    .down-1{
+        overflow-y: hidden;
+        height: 180px;
+        font-size: 70px;
+        transform: rotatez(-12deg);
+        width: 30%;
+       margin-left: 430px;
+       line-height: 1;
+    }
+    .down-1 p{
+        height: 170px;
+    }
+    .date-2-1{
+        width: 80%;
+    }
+    .date-2-1 p{
+        font-size: x-large;
+    }
+    .back-2{
+        height: 500px;
+    }
+    .down{
+        height: 500px;
+    }
+    .footer-3{
+        transform: rotateZ(-8deg);
+        height: 100px;
+        margin-left: 550px;
+        font-size: 40px;
+        width: 15%;
+        line-height: 1;
+    }
+    .footer-1{
+        background-image: url(images/background/slide-image-1920-h.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+         background-size: cover;
+          background-position: center;
+           height: 500px;
+           background-attachment: fixed;
+    }
+    .ft-1{
+        background-color: rgba(0, 0, 0, 0.233);
+        height: 500px;
+    }
+    
+    .ft-2{
+        background-color: rgba(0, 0, 0, 0.233);
+        height: 500px;
+    }
+    .hero{
+        height: 600px;
+    }
+    .hero-1{
+        height: 550px;
+    }
+    .hero-3{
+        width: 90%;
+        margin-left: 20px;
+        height: 300px;
+        margin-top: -330px;
+        z-index: 3;
+    }
+    }
